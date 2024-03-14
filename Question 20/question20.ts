@@ -12,7 +12,4 @@ let landmarks: string[] = [
 ];
 
 
-console.log("List of Famous Landmarks:");
-for (let landmark of landmarks) {
-    console.log(landmark);
-}
+console.log("List of Famous Landmarks:",landmarks);

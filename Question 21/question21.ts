@@ -13,8 +13,7 @@ let countries: Country[] = [
     { name: "Italy", capital: "Rome" }
 ];
 
-
 console.log("List of Countries and Capitals:");
-for (let country of countries) {
+countries.forEach(country => {
     console.log(`${country.name} - Capital: ${country.capital}`);
-}
+});
